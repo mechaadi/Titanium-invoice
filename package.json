@@ -1,7 +1,7 @@
 {
-  "name": "titanium-invoicing",
-  "version": "1.0.4",
-  "description": "Order and invoice generator",
+  "name": "titanium-invoicer",
+  "version": "1.0.2",
+  "description": "INVOICING PACKAGE - GENERATE HTML AND PDF INVOICES AND ORDERS",
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mechaadi/invoice-it.git"
+    "url": "git+https://github.com/mechaadi/Titanium-invoice"
   },
   "keywords": [
     "node",
@@ -30,15 +30,15 @@
   "author": {
     "name": "Aditya Singh",
     "email": "as808780@gmail.com",
-    "url": "mechaadii.web.app"
+    "url": "https://mechaadii.web.app"
   },
   "bugs": {
-    "url": "https://github.com/mechaadi/invoice-it/issues"
+    "url": "https://github.com/mechaadi/Titanium-invoice/issues"
   },
   "engines": {
     "node": ">=6"
   },
-  "homepage": "https://github.com/mechaadi/invoice-it#readme",
+  "homepage": "https://github.com/mechaadi/Titanium-invoice/#readme",
   "dependencies": {
     "i18n-factory": "0.0.2",
     "json-override": "^0.2.0",

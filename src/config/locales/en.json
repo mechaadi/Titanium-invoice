@@ -15,7 +15,7 @@
   "table_tax": "TAX",
   "table_quantity": "QTY",
   "table_price_without_taxes": "Total exc. VAT",
-  "table_price_without_taxes_unit": "COSTING",
+  "table_price_without_taxes_unit": "COST",
   "table_note": "Note :",
   "table_total_without_taxes": "Total exc. VAT",
   "table_total_taxes": "Total VAT",
