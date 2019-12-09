@@ -1,0 +1,73 @@
+{
+  "name": "titanium-invoicing",
+  "version": "1.0.4",
+  "description": "Order and invoice generator",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "clean": "rm -rf coverage dist tmp invoice.pdf invoice.html order.pdf orderAdd.pdf order.html invoiceAdd.pdf",
+    "pretest": "npm run lint",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "prepare": "npm run build",
+    "build": "babel src -d dist --copy-files --source-maps inline",
+    "build:watch": "babel src -d dist --watch --copy-files --source-maps inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mechaadi/invoice-it.git"
+  },
+  "keywords": [
+    "node",
+    "order",
+    "invoice",
+    "html",
+    "pdf",
+    "generator"
+  ],
+  "author": {
+    "name": "Aditya Singh",
+    "email": "as808780@gmail.com",
+    "url": "mechaadii.web.app"
+  },
+  "bugs": {
+    "url": "https://github.com/mechaadi/invoice-it/issues"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/mechaadi/invoice-it#readme",
+  "dependencies": {
+    "i18n-factory": "0.0.2",
+    "json-override": "^0.2.0",
+    "moment": "^2.24.0",
+    "np": "^5.2.1",
+    "pug": "^2.0.3"
+  },
+  "peerDependencies": {
+    "html-pdf": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "~24.7.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "jest": "^24.7.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}

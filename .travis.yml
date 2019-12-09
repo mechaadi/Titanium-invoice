@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - node
+  - lts/*
+before_install:
+  - npm i -g codecov
+  - npm i html-pdf -S
+script:
+  - npm run test
+after_success: codecov
