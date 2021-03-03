@@ -44,7 +44,7 @@
     "json-override": "^0.2.0",
     "moment": "^2.24.0",
     "np": "^5.2.1",
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   },
   "peerDependencies": {
     "html-pdf": "^2.2.0"
